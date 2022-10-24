@@ -1,0 +1,25 @@
+.note-section {
+  display: flex;
+  justify-content: center;
+}
+.note {
+  margin: 10px;
+  padding: 20px;
+  background-color: rgb(76, 152, 152);
+  width: 70%;
+  /* border-radius: ; */
+  border-radius: 10px;
+background: #29bc9f;
+box-shadow: inset 130px 30px 60px #23a289,
+            inset 830px -30px 60px #59bfaa;
+}
+.note-section button{
+    /* color: #000000; */
+    background-color: wheat;
+    padding: 15px;
+    margin-top: 20px;
+    width: fit-content;
+}
+i:hover{
+    color: red;
+}

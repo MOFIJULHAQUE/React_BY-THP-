@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
 
-function App() {
+//Context Api (Without useContext)
+// import CompA from "./Component/ContextApi(without useContext)/CompA";
+
+//Google Keep
+import Main from "./Component/GOOGLE_KEEP_CLONE/Main";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="App">
+        {/* //Context Api (Without useContext) */}
+        {/* <CompA /> */}
+
+        {/* //Google Keep */}
+        <Main />
+      </div>
+    </>
   );
-}
+};
 
 export default App;

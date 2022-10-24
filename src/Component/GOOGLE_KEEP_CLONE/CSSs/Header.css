@@ -1,0 +1,11 @@
+.header {
+  background-color: rgb(54, 213, 213);
+  padding: 40px;
+}
+span {
+  border-radius: 10px;
+  background: #21a6b0;
+  box-shadow: -14px -14px 28px #167178, 14px 14px 28px #2cdbe8;
+  padding: 10px;
+  color: white;
+}
